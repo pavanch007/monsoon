@@ -1,2 +1,7 @@
-mvn clean package
-java -cp ./target/*:./target/lib/* 'SimpleServer$Main'
+* description:
+	A simple Java program to demonstrate how to use TwitterServer and launch it.
+
+* build:
+	mvn clean package
+* run:
+	java -cp ./target/*:./target/lib/* 'SimpleServer$Main'
